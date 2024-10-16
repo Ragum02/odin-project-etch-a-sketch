@@ -21,8 +21,10 @@ p{
 
     border:1px solid black;
     margin-left: 150px;
-max-width: 780px;
-max-height: 780px;
+    width: 780px;
+    height: 780px;
+    min-width: 780px;
+    min-height: 780px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
