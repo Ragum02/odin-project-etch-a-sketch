@@ -3,16 +3,41 @@
     padding:0px;
     box-sizing: border-box;
 }
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+
 #container{
-    height: 800px;
-    width: 800px;
+
+    border:1px solid black;
+    margin-left: 150px;
+max-width: 780px;
+max-height: 780px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+button,input,label{
+    margin-right: 500px;
+}
+button{
+    margin-bottom: 25px;
+    width: 100px;
+    height: 35px;
 }
 .box{
     border:1px solid black;
-height: auto;
-width: 50px;
-flex:1 0 auto;
 }
